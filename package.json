@@ -1,0 +1,30 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "a simple node todolist app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cool-sami12/todolist.git"
+  },
+  "author": "Samuel Aniefiok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cool-sami12/todolist/issues"
+  },
+  "homepage": "https://github.com/Cool-sami12/todolist#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
